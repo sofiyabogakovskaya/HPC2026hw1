@@ -1,0 +1,11 @@
+BugReduction
+BugParFor
+Pi
+Car
+Axisb
+LeastSquares
+car_frame_*.ppm
+*.o
+.DS_Store
+
+results/*.txt
