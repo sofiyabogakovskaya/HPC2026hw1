@@ -8,15 +8,15 @@ Run all experiments with:
 ./scripts/run_all.sh
 ```
 
-Each script compiles the needed program, runs it, writes output to `results/*.txt`, and removes its executable.
+Each script compiles the needed program, runs it, writes output to `results/*.txt`, and removes its executable
 
 ## Task 1: BugReduction.c
 
 There were several mistakes in the original program:
 
-- `sum` was not initialized inside `dotprod`;
-- `#pragma omp for` was used without returning the value to `main`;
-- the result of `dotprod` was ignored.
+- `sum` was not initialized inside `dotprod`
+- `#pragma omp for` was used without returning the value to `main`
+- the result of `dotprod` was ignored
 
 The corrected version uses reduction:
 
